@@ -53,7 +53,6 @@ optimization.
 Pip install nvidia-pyindex
 Pip install nvidia-tensorrt
 Pip install tensorflow-tensorrt
-Convert a TensorFlow model using TensorRT:
 Import tensorflow as tf
 Import tensorflow_tensorrt as trt
 
@@ -94,5 +93,5 @@ plt.show()
 
 # Alerting system for flood detection
 def send_alert(threshold, value):
-if value &gt; threshold:
-print(f&quot;ALERT: Value {value} exceeds threshold {threshold}&quot;)
+if value >gt; threshold:
+print(f"ALERT: Value {value} exceeds threshold {threshold}")
